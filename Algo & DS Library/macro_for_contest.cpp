@@ -44,9 +44,9 @@ template <typename T> inline void update_max(T &a, T b) { if (b > a) a = b; }
 /************************************************************************/
 
 
-void solve() {
+void handle_test_case(int32_t tc) {
     int32_t m, n, k, q, node, edge;
-
+    |
 
 }
 
@@ -55,8 +55,8 @@ int32_t main() {
 
     int32_t test_cases = 1;
     //cin >> test_cases;
-    while (test_cases--) {
-        solve();
+    for(int32_t tc = 1; tc <= test_cases; tc++) {
+        handle_test_case(tc);
     }
 
     return 0;
